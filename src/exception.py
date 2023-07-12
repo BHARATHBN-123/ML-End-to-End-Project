@@ -8,10 +8,10 @@ def error_message_detail(error,error_detail:sys):
     
     return error_mesage
 
-    class Custom_Exception(Exception):
-        def __init__(self,error_mesage,error_detail:sys):
-            super.__init__(error_mesage)
-            self.error_mesage = error_message_detail(error_mesage,error_detail=error_detail)
+class Custom_Exception(Exception):
+    def __init__(self,error_mesage,error_detail:sys):
+        super().__init__(error_mesage)
+        self.error_mesage = error_message_detail(error_mesage,error_detail=error_detail)
             
-            def __str__(self):
-                self.error_mesage
+        def __str__(self):
+            self.error_mesage
