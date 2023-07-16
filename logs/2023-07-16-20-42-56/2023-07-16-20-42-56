@@ -1,0 +1,3 @@
+[ 2023-07-16 20:43:09,123 ] 21 root - INFO - Started data ingestion(Entered Data Injestion method)
+[ 2023-07-16 20:43:09,159 ] 24 root - INFO - Reading dataset as dataframe...
+[ 2023-07-16 20:43:09,176 ] 29 root - INFO - Initiated tran test split
