@@ -1,0 +1,10 @@
+[ 2023-07-20 10:32:14,573 ] 26 root - INFO - Started data ingestion(Entered Data Injestion method)
+[ 2023-07-20 10:32:14,578 ] 29 root - INFO - Reading dataset as dataframe...
+[ 2023-07-20 10:32:14,585 ] 34 root - INFO - Initiated tran test split
+[ 2023-07-20 10:32:14,627 ] 78 root - INFO - Read train and test data completed
+[ 2023-07-20 10:32:14,627 ] 80 root - INFO - Obtaining preprocessing object
+[ 2023-07-20 10:32:14,627 ] 58 root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2023-07-20 10:32:14,627 ] 59 root - INFO - Numerical columns: ['writing_score', 'reading_score']
+[ 2023-07-20 10:32:14,629 ] 93 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[ 2023-07-20 10:32:14,646 ] 105 root - INFO - Saved preprocessing object.
+[ 2023-07-20 10:32:14,650 ] 33 root - INFO - Split training and test input data

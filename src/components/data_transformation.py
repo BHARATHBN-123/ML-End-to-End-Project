@@ -22,7 +22,7 @@ class DataTransfomationConfig:
 class DataTransfomation:
     def __init__(self):
         self.DataTransfomationConfig = DataTransfomationConfig()
-    def get_data_transformer_object(self,):
+    def get_data_transformer_object(self):
         '''
         This function si responsible for data trnasformation
         
@@ -106,7 +106,7 @@ class DataTransfomation:
 
             save_object(
 
-                file_path=self.data_transformation_config.preprocessor_obj_file_path,
+                file_path=self.DataTransfomationConfig.preprocessor_object_file_path,
                 obj=preprocessing_obj
 
             )
@@ -114,7 +114,7 @@ class DataTransfomation:
             return (
                 train_arr,
                 test_arr,
-                self.data_transformation_config.preprocessor_obj_file_path,
+                self.DataTransfomationConfig.preprocessor_object_file_path,
             )
         except Exception as e:
             raise Custom_Exception(e,sys)            
