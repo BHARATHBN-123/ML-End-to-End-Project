@@ -1,0 +1,4 @@
+[ 2023-07-28 20:27:54,656 ] 187 werkzeug - WARNING -  * Debugger is active!
+[ 2023-07-28 20:27:54,665 ] 187 werkzeug - INFO -  * Debugger PIN: 875-703-428
+[ 2023-07-28 20:27:57,920 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jul/2023 20:27:57] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-07-28 20:28:32,444 ] 187 werkzeug - INFO - 127.0.0.1 - - [28/Jul/2023 20:28:32] "POST /predictdata HTTP/1.1" 200 -
